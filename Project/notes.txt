@@ -1,0 +1,121 @@
+Why Learn Javascript?
+========================
+  It is a programming language of the browser
+  Build very interactive user interfaces with frameworks like React
+  Used in building very fast server side and full stack application
+  Used in mobile development (React Native, NativeScript, Ionic)
+  Used in desktop application development (Electron JS)
+
+====================================
+What you will learn in this course
+====================================
+Variables and Data Types
+  There are  var, let, const. Dont use var as they are global variables, so for the most part you let or const. let is declaring a local variable and const is a local that is immutable.
+  "always use const unless you know you are reassigning variables".
+
+  ===========
+  Data Types:
+  ===========
+    strings , numbers, booleans, null, undefined, symbol
+
+    const name = 'John' ;       // single or double quotes, it doesnt matter
+    const age = 30;
+    const isCool = true;
+    const rating = 4.5;
+    const x = null;
+    const y= undefined;
+    let z;                      // just initializing a variable but not assigning it
+
+    ======
+    arrays
+    ======
+    - In javascript you can have an array THAT HAS MULTIPLE DATA TYPES!!!
+    - arrays also function similarly as they do in python, they are in a stack datastructure.
+
+
+    .push(element)      // pushes into the last spot into the array
+    .pop()              // takes the last element added off of the list
+    .unshift(element)   // puts the element in the first spot in the array
+
+
+
+    const fruits = ['apples', true];
+    const numbers = new Array(1,2,3,4,5);     // this is the array constructor in javascript, but for the most part you can do it the same way that you would do it in python
+    console.log(numbers)
+    console.log(Array.isArray('hello');       // spits out weather or not the array is an array or not
+    console.log(indexOf('oranges'));          // spits out what position this is in
+    ===============
+    object literals
+    ================
+    these are the like the objects that you did in 1300 all the time
+
+    const person = {
+      firstName: 'John',
+      lastName: 'Doe',
+      age: 30,
+      hobbies: ['music', 'movies', 'sports']
+      address:{
+        street: '50 main st',
+        city: 'Boston',
+        state: 'MA'
+      }
+    }
+    =========================================
+    Methods for strings, arrays, objects, etc
+    =========================================
+
+    ==============================
+    Loops - for, while, for , etc.
+    ==============================
+
+    ============
+    conditionals
+    ============
+
+    =========
+    functions
+    =========
+
+    ============================
+    OOP (prototypes and classes)
+    ============================
+
+    =============
+    DOM selection
+    =============
+    - document object model
+    - visualized as a tree structure
+    - generally just use document.querySelector() and document.querySelectorAll(); 
+    ================
+    DOM manipulation
+    ================
+
+    ======
+    Events
+    ======
+
+    =====================
+    Basic Form Validation
+    =====================
+
+    ====
+    JSON
+    ====
+    - how information is sent in received in a certain format
+    - no single quotes in JSON
+
+==================
+Notes
+===================
+- debug with developer console in the browser
+- always use semicolens
+- always put javascript at bottom of html page so it loads page faster
+- comments are the same syntax as they are in C++
+- javascript operators are the same as they are in C++ apart from the triple equiavlency signs.
+
+
+===================
+Functions / Methods
+===================
+
+equivalent conditional is THREE equal signs not 2,  this === that
